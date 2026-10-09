@@ -1,0 +1,242 @@
+[
+  {
+    "id": "T001",
+    "text": "I want a refund for my course",
+    "expected_category": "refund",
+    "expected_escalation": true
+  },
+  {
+    "id": "T002",
+    "text": "Can I get my money back for the course?",
+    "expected_category": "refund",
+    "expected_escalation": true
+  },
+  {
+    "id": "T003",
+    "text": "Refund kaise milega?",
+    "expected_category": "refund",
+    "expected_escalation": true
+  },
+  {
+    "id": "T004",
+    "text": "I purchased yesterday and want to cancel",
+    "expected_category": "refund",
+    "expected_escalation": true
+  },
+  {
+    "id": "T005",
+    "text": "Please check my refund eligibility",
+    "expected_category": "refund",
+    "expected_escalation": true
+  },
+  {
+    "id": "T006",
+    "text": "Payment deduct ho gaya but course access nahi mil raha",
+    "expected_category": "payment",
+    "expected_escalation": true
+  },
+  {
+    "id": "T007",
+    "text": "My UPI payment was successful but course is not visible",
+    "expected_category": "payment",
+    "expected_escalation": true
+  },
+  {
+    "id": "T008",
+    "text": "Amount deducted and enrollment is missing",
+    "expected_category": "payment",
+    "expected_escalation": true
+  },
+  {
+    "id": "T009",
+    "text": "Payment is showing pending",
+    "expected_category": "payment",
+    "expected_escalation": false
+  },
+  {
+    "id": "T010",
+    "text": "I paid for the course but access is unavailable",
+    "expected_category": "payment",
+    "expected_escalation": true
+  },
+  {
+    "id": "T011",
+    "text": "Mera payment pending dikha raha hai",
+    "expected_category": "payment",
+    "expected_escalation": false
+  },
+  {
+    "id": "T012",
+    "text": "Transaction failed but amount was deducted",
+    "expected_category": "payment",
+    "expected_escalation": true
+  },
+  {
+    "id": "T013",
+    "text": "My batch is not visible in dashboard",
+    "expected_category": "batch_access",
+    "expected_escalation": true
+  },
+  {
+    "id": "T014",
+    "text": "Batch access nahi mil raha",
+    "expected_category": "batch_access",
+    "expected_escalation": true
+  },
+  {
+    "id": "T015",
+    "text": "I cannot see the batch I purchased",
+    "expected_category": "batch_access",
+    "expected_escalation": true
+  },
+  {
+    "id": "T016",
+    "text": "Enrollment is correct but batch is missing",
+    "expected_category": "batch_access",
+    "expected_escalation": true
+  },
+  {
+    "id": "T017",
+    "text": "When will my batch start?",
+    "expected_category": "batch_access",
+    "expected_escalation": false
+  },
+  {
+    "id": "T018",
+    "text": "My course access is not working",
+    "expected_category": "batch_access",
+    "expected_escalation": true
+  },
+  {
+    "id": "T019",
+    "text": "Video is not playing",
+    "expected_category": "technical",
+    "expected_escalation": false
+  },
+  {
+    "id": "T020",
+    "text": "Lecture keeps buffering",
+    "expected_category": "technical",
+    "expected_escalation": false
+  },
+  {
+    "id": "T021",
+    "text": "App crashes when I open the video",
+    "expected_category": "technical",
+    "expected_escalation": true
+  },
+  {
+    "id": "T022",
+    "text": "Website has a technical problem",
+    "expected_category": "technical",
+    "expected_escalation": false
+  },
+  {
+    "id": "T023",
+    "text": "Video play nahi ho raha",
+    "expected_category": "technical",
+    "expected_escalation": false
+  },
+  {
+    "id": "T024",
+    "text": "App crash ho raha hai baar baar",
+    "expected_category": "technical",
+    "expected_escalation": true
+  },
+  {
+    "id": "T025",
+    "text": "Why is the answer to this question B?",
+    "expected_category": "academic",
+    "expected_escalation": false
+  },
+  {
+    "id": "T026",
+    "text": "I have a doubt in my assignment",
+    "expected_category": "academic",
+    "expected_escalation": false
+  },
+  {
+    "id": "T027",
+    "text": "Can faculty explain this question?",
+    "expected_category": "academic",
+    "expected_escalation": false
+  },
+  {
+    "id": "T028",
+    "text": "I need help understanding this topic",
+    "expected_category": "academic",
+    "expected_escalation": false
+  },
+  {
+    "id": "T029",
+    "text": "Academic doubt hai please help",
+    "expected_category": "academic",
+    "expected_escalation": false
+  },
+  {
+    "id": "T030",
+    "text": "Can someone review my assignment?",
+    "expected_category": "academic",
+    "expected_escalation": false
+  },
+  {
+    "id": "T031",
+    "text": "I forgot my password",
+    "expected_category": "account",
+    "expected_escalation": false
+  },
+  {
+    "id": "T032",
+    "text": "I cannot login to my account",
+    "expected_category": "account",
+    "expected_escalation": false
+  },
+  {
+    "id": "T033",
+    "text": "How can I recover my account?",
+    "expected_category": "account",
+    "expected_escalation": false
+  },
+  {
+    "id": "T034",
+    "text": "I need to change my registered email",
+    "expected_category": "account",
+    "expected_escalation": false
+  },
+  {
+    "id": "T035",
+    "text": "OTP is not arriving for login",
+    "expected_category": "account",
+    "expected_escalation": false
+  },
+  {
+    "id": "T036",
+    "text": "This is ridiculous, nobody is responding to me",
+    "expected_category": "other",
+    "expected_escalation": true
+  },
+  {
+    "id": "T037",
+    "text": "You are useless and I will complain to consumer court",
+    "expected_category": "other",
+    "expected_escalation": true
+  },
+  {
+    "id": "T038",
+    "text": "I have contacted support three times and still no help",
+    "expected_category": "other",
+    "expected_escalation": true
+  },
+  {
+    "id": "T039",
+    "text": "Can you recommend a laptop for me?",
+    "expected_category": "other",
+    "expected_escalation": false
+  },
+  {
+    "id": "T040",
+    "text": "Hello, I need some help with my course",
+    "expected_category": "other",
+    "expected_escalation": false
+  }
+]
